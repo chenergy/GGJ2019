@@ -1,20 +1,54 @@
 fileFormatVersion: 2
-guid: 84884503c40024b58b89a67331bab24e
+guid: 6d5454c6fec554ae59df14ca925e93a0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: No Name
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: test
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 816a84122aa2c0b43b8ea8e4876c6113, type: 2}
+    100000: Floor
+    100002: Lamp
+    100004: Left H
+    100006: Right H
+    100008: Shelf
+    100010: Sink
+    100012: Sink Bowl
+    100014: Table
+    100016: //RootNode
+    400000: Floor
+    400002: Lamp
+    400004: Left H
+    400006: Right H
+    400008: Shelf
+    400010: Sink
+    400012: Sink Bowl
+    400014: Table
+    400016: //RootNode
+    2100000: Metal
+    2100002: White gloss
+    2100004: Wood
+    2300000: Floor
+    2300002: Lamp
+    2300004: Left H
+    2300006: Right H
+    2300008: Shelf
+    2300010: Sink
+    2300012: Sink Bowl
+    2300014: Table
+    3300000: Floor
+    3300002: Lamp
+    3300004: Left H
+    3300006: Right H
+    3300008: Shelf
+    3300010: Sink
+    3300012: Sink Bowl
+    3300014: Table
+    4300000: Right H
+    4300002: Left H
+    4300004: Sink
+    4300006: Shelf
+    4300008: Lamp
+    4300010: Table
+    4300012: Floor
+    4300014: Sink Bowl
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
