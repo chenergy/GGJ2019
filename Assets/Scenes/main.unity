@@ -5019,14 +5019,13 @@ Transform:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 612039645}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.72, y: -18.08, z: 5.99}
-  m_LocalScale: {x: 0.089721, y: 0.089721, z: 0.089721}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.699999, y: 0, z: 0.17971285}
+  m_LocalScale: {x: 1, y: 1, z: 0.11232042}
   m_Children:
   - {fileID: 1407282287}
-  - {fileID: 1316603413}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1316603413}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623955099
 GameObject:
@@ -10514,9 +10513,10 @@ GameObject:
   - component: {fileID: 1316603416}
   - component: {fileID: 1316603415}
   - component: {fileID: 1316603414}
+  - component: {fileID: 1316603417}
   m_Layer: 9
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: toothbrush
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10527,12 +10527,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316603412}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 0, z: -1.6}
-  m_LocalScale: {x: 1, y: 1, z: 8.9031}
-  m_Children: []
-  m_Father: {fileID: 612039646}
-  m_RootOrder: 1
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.962246, y: -18.08, z: 5.846446}
+  m_LocalScale: {x: 0.089721, y: 0.089721, z: 0.79879504}
+  m_Children:
+  - {fileID: 612039646}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1316603414
 BoxCollider:
@@ -10588,6 +10589,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316603412}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1316603417
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1316603412}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1330589618
 GameObject:
   m_ObjectHideFlags: 0
