@@ -5,11 +5,8 @@ public class InputListener : MonoBehaviour
 {
     public bool debug;
     public Text debugText;
-    public float moveSpeed = 1f;
-    public GameObject cameraRig;
     public GameObject controller;
     public GameObject controllerRay;
-    public GameObject centerEyeAnchor;
 
     public void Start()
     {
@@ -42,19 +39,9 @@ public class InputListener : MonoBehaviour
             targetName = "None";
         }
 
-        // Controller movement.
-        Vector2 axis = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
-        if (OVRInput.Get(OVRInput.Button.PrimaryTouchpad))
-        {
-            if (axis.y > 0.1f)
-            {
-                Vector3 moveDir = new Vector3(centerEyeAnchor.transform.forward.x, 0, centerEyeAnchor.transform.forward.z).normalized;
-                cameraRig.transform.position += moveDir * moveSpeed;
-            }
-        }
-
         if (debug)
         {
+            Vector2 axis = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
             debugText.text = $"localPos={localPos}\nlocalRot={localRot}\ntarget={targetName}\naxis={axis}";
         }
     }
